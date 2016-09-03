@@ -4,6 +4,7 @@ var gulp = require("gulp"),
 gulp.task("connect", function(){
 	"use strict";
 	connect.server({
+		root: "src/",
 		livereload: true
 	})
 });
